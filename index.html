@@ -12,11 +12,11 @@
 <body>
   <header>
     <div class="header-group">
-      <div class="header-text"><span class="header-text-left">Information for</span><span class="header-text-right">MATSUMOTO</span></div>
+      <div class="header-text"><span class="header-text-left icon-info">nformation for</span><span class="header-text-right">MATSUMOTO</span></div>
       <div class="menu">
-        <a href="#profile">Profile</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="#profile" class="icon-profile">Profile</a>
+        <a href="#portfolio" class="icon-portfolio">Portfolio</a>
+        <a href="#contact" class="icon-contact">Contact</a>
       </div>
     </div>
   </header>
@@ -29,12 +29,10 @@
         <div class="profile-info">
           <span>名前 : Matsumoto Seita</span><br />
           <span>年齢 : 30そこそこ</span><br />
+          <span>仕事 : インフラエンジニア（雑用）</span><br />
           <span>趣味 : バドミントン</span><br /><br />
           <span>勉強中のプログラム言語 : ruby python php bash</span><br />
-          <span>最近思うこと : 言語の流行りに左右されない</span><br /><br />
-          <a href="https://twitter.com/seita_matsumoto?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-            data-show-screen-name="false" data-show-count="false">Follow @seita_matsumoto</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <span>最近思うこと : 流行りの言語に左右されない</span><br /><br />
         </div>
       </div>
       <div class="profile-description">
@@ -52,7 +50,27 @@
     </div>
     <div id="contact">
       <h2>Contact</h2>
-      <a href="mailto:seita_matsumoto@se-kun.work?subject=問い合わせ">メールアプリを起動</a>
+
+      <p>少しでも気になった方は以下からご連絡頂けますと幸いです。</p>
+
+      <div class="contact-sns">
+        <div class="contact-twitter">
+          <a href="https://twitter.com/seita_matsumoto?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
+            data-show-screen-name="false" data-show-count="false">Follow @seita_matsumoto</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div class="contact-facebook">
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0"></script>
+          <div class="fb-share-button" data-href="https://www.facebook.com/profile.php?id=100044528162813" data-layout="button" data-size="large"><a target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100044528162813&amp;src=sdkpreparse"
+              class="fb-xfbml-parse-ignore">シェア</a></div>
+        </div>
+
+        <a href="mailto:seita_matsumoto@se-kun.work?subject=問い合わせ" class="contact-mail">メールアプリを起動</a>
+      </div>
     </div>
   </main>
   <div id="page_top"><a href="#"></a></div>

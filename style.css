@@ -107,20 +107,34 @@ header {
 
 #portfolio h2 {
   border-bottom: double 4px white;
+  color: white;
 }
 
-#contact a {
-  display: block;
+#contact p {
   width: 600px;
   margin: 30px auto;
-  line-height: 2.5;
-  font-size: 24px;
-  text-decoration: none;
   text-align: center;
 }
 
 #contact a:hover {
   opacity: 0.7;
+}
+
+.contact-sns {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-mail {
+  color: white;
+  border-radius: 4px;
+  background-color: cadetblue;
+  width: 200px;
+  text-decoration: none;
+  line-height: 2;
+  text-align: center;
 }
 
 #page_top{
@@ -132,6 +146,7 @@ header {
   background: gray;
   opacity: 0.7;
 }
+
 #page_top a{
   position: relative;
   display: block;
@@ -139,6 +154,7 @@ header {
   height: 60px;
   text-decoration: none;
 }
+
 #page_top a::before{
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -155,6 +171,7 @@ header {
   margin: auto;
   text-align: center;
 }
+
 #page_top a::after{
   content: 'PAGE TOP';
   font-size: 13px;
@@ -166,4 +183,13 @@ header {
   left: 0;
   margin: auto;
   text-align: center;
+}
+
+.icon-info {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+}
+
+.icon-info::before {
+  content: '\f05a';
 }
