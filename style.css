@@ -185,7 +185,7 @@ header {
   width: 800px;
   margin: 30px auto;
   display: grid;
-  grid-template-columns: 240px 3fr;
+  grid-template-columns: 360px 2fr;
   grid-gap: 10px;
 }
 
@@ -212,6 +212,10 @@ header {
 
 .portfolio-link {
   margin-top: 10px;
+}
+
+.portfolio-link:hover {
+  opacity: 0.8;
 }
 
 .portfolio-image {
