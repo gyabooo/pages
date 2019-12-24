@@ -66,7 +66,7 @@ header {
   width: 100%;
 }
 
-#profile h2, #portfolio h2, #contact h2 {
+#profile h2, #skill h2, #portfolio h2, #contact h2 {
   display: block;
   width: 600px;
   margin: 30px auto;
@@ -94,6 +94,82 @@ header {
   height: 40%;
 }
 
+#skill {
+  height: 100%;
+}
+
+#skill p {
+  width: 600px;
+  margin: 30px auto;
+  line-height: 2.5;
+  text-align: left;
+}
+
+#skill {
+  background-color: teal;
+}
+
+#skill h2 {
+  border-bottom: double 4px white;
+  color: white;
+}
+
+.skill-boxs {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.skill-box {
+  background-color: #fff;
+  padding: 20px;
+  width: calc(50% - 10px);
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 4px 6px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.skill-box:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.skill-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;;
+  text-decoration: underline;
+}
+
+.skill-desc {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.skill-detail-box {
+  width: 100%;
+}
+
+.skill-detail-box th, .skill-detail-box td {
+  width: 50%;
+  text-align: center;
+}
+
+.skill-detail-box th {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.skill-detail-box td {
+  padding-bottom: 5px;
+}
+
+#portfolio {
+  height: 100%;
+}
+
 #portfolio p {
   width: 600px;
   margin: 30px auto;
@@ -101,19 +177,61 @@ header {
   text-align: left;
 }
 
-#portfolio {
+#portfolio h2 {
+  border-bottom: double 4px #999;
+}
+
+.portfolio-boxs {
+  width: 800px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 240px 3fr;
+  grid-gap: 10px;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #999;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 5px;
+  border-bottom: double 2px #999;
+}
+
+.portfolio-desc {
+  border-bottom: double 2px #999;
+  padding-bottom: 5px;
+}
+
+.portfolio-link {
+  margin-top: 10px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+}
+
+#contact {
   background-color: teal;
 }
 
-#portfolio h2 {
-  border-bottom: double 4px white;
-  color: white;
+#contact h2 {
+  color: #fff;
 }
 
 #contact p {
   width: 600px;
   margin: 30px auto;
   text-align: center;
+  color: #fff;
 }
 
 #contact a:hover {
@@ -192,4 +310,24 @@ header {
 
 .icon-info::before {
   content: '\f05a';
+}
+
+.icon-human {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+}
+
+.icon-human::before {
+  content: '\f2bb';
+  margin-right: 5px;
+}
+
+.icon-portfolio-title {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+}
+
+.icon-portfolio-title::before {
+  content: '\f559';
+  margin-right: 5px;
 }
