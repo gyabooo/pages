@@ -10,246 +10,263 @@
   <title>portfolio</title>
 </head>
 <body>
-  <header>
-    <div class="header-group">
-      <div class="header-text"><span class="header-text-left icon-info">nformation for</span><span class="header-text-right">MATSUMOTO</span></div>
-      <div class="menu">
-        <a href="#profile" class="icon-profile">Profile</a>
-        <a href="#skill" class="icon-skill">Skill</a>
-        <a href="#portfolio" class="icon-portfolio">Portfolio</a>
-        <a href="#contact" class="icon-contact">Contact</a>
-      </div>
-    </div>
-  </header>
-  <main>
 
-    <div id="profile">
-      <h2>Profile</h2>
-      <div class="profile-box">
-        <img src="profile-self.jpg" alt="matsumoto" class="profile-image">
-        <div class="profile-info">
-          <span>名前 : Matsumoto Seita</span><br />
-          <span>年齢 : 30そこそこ</span><br />
-          <span>仕事 : インフラエンジニア（雑用）→ 転職中</span><br />
-          <span>趣味 : バドミントン</span><br /><br />
-          <span>勉強中のプログラム言語 : ruby python php bash</span><br />
-          <span>最近思うこと : 流行りの言語に左右されない</span><br />
-          <span>技術ブログ : <a href="https://gyabooo.hatenablog.com/" target="_blank">gyaboooのゆるい技術ブログ</a></span><br /><br />
+  <div class="wrap">
+
+    <header class="header">
+      <div class="header-group">
+        <div class="header-text">
+          <span class="header-text-left icon-info">nformation</span>
+          <span class="header-text-right">MATSUMOTO</span>
         </div>
-      </div>
-      <div class="profile-description">
-        何回かプログラミングに挫折していますがやっぱり、物作りがしたいと思いプログラミングスクールにて再再々？挑戦しています。<br/>
-        いろんな勉強会に参加して知識と経験を積んで楽しくプログラミングが出来るようマイペースに頑張って行きます。<br />
-        今はRuby on Railsを勉強していますのでRubyをやっている方、そうでない方も仲良くしていただけると幸いです。<br />
-      </div>
-    </div>
-
-    <div id="skill">
-      <h2>Skill</h2>
-      <div class="skill-boxs">
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">デザイン・コーディング</div>
-          <div class="skill-desc">基本的なコーティングは可能です</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>半年</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>半年</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">フロントエンド</div>
-          <div class="skill-desc">主にJQueryを実施、Vue.js・Nuxt.jsを学習中</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>JQuery</td>
-              <td>半年</td>
-            </tr>
-            <tr>
-              <td>Vue.js</td>
-              <td>3ヶ月</td>
-            </tr>
-            <tr>
-              <td>Nuxt.js</td>
-              <td>1ヶ月</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">バックエンド</div>
-          <div class="skill-desc">主にRuby on Railsを経験</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>Ruby on Rails</td>
-              <td>半年</td>
-            </tr>
-            <tr>
-              <td>Laravel</td>
-              <td>学習中</td>
-            </tr>
-            <tr>
-              <td>python</td>
-              <td>学習中</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">DB</div>
-          <div class="skill-desc">主にMySQLを経験</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>MySQL</td>
-              <td>半年</td>
-            </tr>
-            <tr>
-              <td>DinamoDB</td>
-              <td>学習中</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">インフラ・サーバ</div>
-          <div class="skill-desc">レンタルサーバーサービスの提供を経験、Linux・Windowsの構築・運用を経験</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>Linuxサーバ（主にCentOS）</td>
-              <td>9年</td>
-            </tr>
-            <tr>
-              <td>Windowsサーバ</td>
-              <td>3年</td>
-            </tr>
-            <tr>
-              <td>AWS（EC2, RDS, CloudFront等）</td>
-              <td>2年</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">その他</div>
-          <div class="skill-desc">開発時に使用しているツールなど</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>技術</th>
-              <th>経験</th>
-            </tr>
-            <tr>
-              <td>Git</td>
-              <td>1年</td>
-            </tr>
-            <tr>
-              <td>Slack</td>
-              <td>半年</td>
-            </tr>
-            <tr>
-              <td>Google Apps Script</td>
-              <td>1年</td>
-            </tr>
-            <tr>
-              <td>VScode</td>
-              <td>1年</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-title icon-human">保有資格</div>
-          <div class="skill-desc">現在、保有している資格</div>
-          <table class="skill-detail-box">
-            <tr>
-              <th>資格名</th>
-            </tr>
-            <tr>
-              <td>基本情報技術者</td>
-            </tr>
-            <tr>
-              <td>ネットワークスペシャリスト</td>
-            </tr>
-            <tr>
-              <td>AWS SysOpsアドミニストレーターアーキテクト</td>
-            </tr>
-          </table>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="portfolio-boxs">
-
-        <div class="portfolio-box">
-          <div class="portfolio-title icon-portfolio-title">簡易AWSコンソール</div>
-          <div class="portfolio-desc">
-            <span>複数のAWSアカウントで作成されているEC2インスタンスを起動、停止出来るようにした簡易コンソール。</span><br/>
-            <span>本物のAWSコンソールにもログイン出来るリンクあり。</span><br />
-            <span><a href="https://github.com/gyabooo/aws_console_beta" target="_blank">github</a></span>
-          </div>
-          <div class="portfolio-link">
-            <a href="https://aws-console-beta.gyabooo.work/" target="_blank">
-              <img class="portfolio-image" src="aws-console-beta.png" alt="簡易AWSコンソール">
-            </a>
+        <div id="menu">
+          <input id="menu-input" type="checkbox" class="menu-unshown">
+          <label id="menu-open" for="menu-input"><span></span></label>
+          <label id="menu-close" class="menu-unshown" for="menu-input"></label>
+          <div id="menu-content">
+            <a href="#profile" class="icon-profile">Profile</a>
+            <a href="#skill" class="icon-skill">Skill</a>
+            <a href="#portfolio" class="icon-portfolio">Portfolio</a>
+            <a href="#contact" class="icon-contact">Contact</a>
           </div>
         </div>
-
       </div>
-    </div>
-    <div id="contact">
-      <h2>Contact</h2>
+    </header>
 
-      <p>少しでも気になった方は以下からご連絡頂けますと幸いです。</p>
-
-      <div class="contact-sns">
-        <div class="contact-twitter">
-          <a href="https://twitter.com/seita_matsumoto?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-            data-show-screen-name="false" data-show-count="false">Follow @seita_matsumoto</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <main>
+    
+      <div id="profile">
+        <h2>Profile</h2>
+        <div class="profile-box">
+          <img src="profile-self.jpg" alt="matsumoto" class="profile-image">
+          <div class="profile-info">
+            <span>名前 : Matsumoto Seita</span><br />
+            <span>年齢 : 33</span><br />
+            <span>仕事 : インフラエンジニア（雑用）→ 転職中</span><br />
+            <span>趣味 : バドミントン</span><br /><br />
+            <span>勉強中のプログラム言語 : ruby python php bash</span><br />
+            <span>最近思うこと : 流行りの言語に左右されない</span><br />
+            <span>技術ブログ : <a href="https://gyabooo.hatenablog.com/" target="_blank">gyaboooのゆるい技術ブログ</a></span><br /><br />
+          </div>
         </div>
-
-        <div class="contact-facebook">
-          <div id="fb-root"></div>
-          <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0"></script>
-          <div class="fb-share-button" data-href="https://www.facebook.com/profile.php?id=100044528162813" data-layout="button" data-size="large"><a target="_blank"
-              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100044528162813&amp;src=sdkpreparse"
-              class="fb-xfbml-parse-ignore">シェア</a></div>
+        <div class="profile-description">
+          何回かプログラミングに挫折していますがやっぱり、物作りがしたいと思いプログラミングスクールにて再再々？挑戦しています。<br />
+          いろんな勉強会に参加して知識と経験を積んで楽しくプログラミングが出来るようマイペースに頑張って行きます。<br />
+          今はRuby on Railsを勉強していますのでRubyをやっている方、そうでない方も仲良くしていただけると幸いです。<br />
         </div>
-
-        <a href="mailto:seita_matsumoto@se-kun.work?subject=問い合わせ" class="contact-mail">メールアプリを起動</a>
       </div>
-    </div>
-  </main>
-  <div id="page_top"><a href="#"></a></div>
+    
+      <div id="skill">
+        <h2>Skill</h2>
+        <div class="skill-boxs">
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">デザイン・コーディング</div>
+            <div class="skill-desc">基本的なコーティングは可能です</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>半年</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>半年</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">フロントエンド</div>
+            <div class="skill-desc">主にJQueryを実施、Vue.js・Nuxt.jsを学習中</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>JQuery</td>
+                <td>半年</td>
+              </tr>
+              <tr>
+                <td>Vue.js</td>
+                <td>3ヶ月</td>
+              </tr>
+              <tr>
+                <td>Nuxt.js</td>
+                <td>1ヶ月</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">バックエンド</div>
+            <div class="skill-desc">主にRuby on Railsを経験</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>Ruby on Rails</td>
+                <td>半年</td>
+              </tr>
+              <tr>
+                <td>Laravel</td>
+                <td>学習中</td>
+              </tr>
+              <tr>
+                <td>python</td>
+                <td>学習中</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">DB</div>
+            <div class="skill-desc">主にMySQLを経験</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>MySQL</td>
+                <td>半年</td>
+              </tr>
+              <tr>
+                <td>DinamoDB</td>
+                <td>学習中</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">インフラ・サーバ</div>
+            <div class="skill-desc">レンタルサーバーサービスの提供を経験、Linux・Windowsの構築・運用を経験</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>Linuxサーバ（主にCentOS）</td>
+                <td>9年</td>
+              </tr>
+              <tr>
+                <td>Windowsサーバ</td>
+                <td>3年</td>
+              </tr>
+              <tr>
+                <td>AWS（EC2, RDS, CloudFront等）</td>
+                <td>2年</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">その他</div>
+            <div class="skill-desc">開発時に使用しているツールなど</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>技術</th>
+                <th>経験</th>
+              </tr>
+              <tr>
+                <td>Git</td>
+                <td>1年</td>
+              </tr>
+              <tr>
+                <td>Slack</td>
+                <td>半年</td>
+              </tr>
+              <tr>
+                <td>Google Apps Script</td>
+                <td>1年</td>
+              </tr>
+              <tr>
+                <td>VScode</td>
+                <td>1年</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="skill-box">
+            <div class="skill-title icon-human">保有資格</div>
+            <div class="skill-desc">現在、保有している資格</div>
+            <table class="skill-detail-box">
+              <tr>
+                <th>資格名</th>
+              </tr>
+              <tr>
+                <td>基本情報技術者</td>
+              </tr>
+              <tr>
+                <td>ネットワークスペシャリスト</td>
+              </tr>
+              <tr>
+                <td>AWS SysOpsアドミニストレーターアーキテクト</td>
+              </tr>
+            </table>
+          </div>
+    
+        </div>
+    
+      </div>
+    
+      <div id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-boxs">
+    
+          <div class="portfolio-box">
+            <div class="portfolio-title icon-portfolio-title">簡易AWSコンソール</div>
+            <div class="portfolio-desc">
+              <span>複数のAWSアカウントで作成されているEC2インスタンスを起動、停止出来るようにした簡易コンソール。</span><br />
+              <span>本物のAWSコンソールにもログイン出来るリンクあり。</span><br />
+              <span><a href="https://github.com/gyabooo/aws_console_beta" target="_blank">github</a></span>
+            </div>
+            <div class="portfolio-link">
+              <a href="https://aws-console-beta.gyabooo.work/" target="_blank">
+                <img class="portfolio-image" src="aws-console-beta.png" alt="簡易AWSコンソール">
+              </a>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+      <div id="contact">
+        <h2>Contact</h2>
+    
+        <p>少しでも気になった方は以下からご連絡頂けますと幸いです。</p>
+    
+        <div class="contact-sns">
+          <div class="contact-twitter">
+            <a href="https://twitter.com/seita_matsumoto?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+              data-size="large" data-show-screen-name="false" data-show-count="false">Follow @seita_matsumoto</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+    
+          <div class="contact-facebook">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+              src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0"></script>
+            <div class="fb-share-button" data-href="https://www.facebook.com/profile.php?id=100044528162813"
+              data-layout="button" data-size="large"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100044528162813&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">シェア</a></div>
+          </div>
+          <a href="mailto:seita_matsumoto@se-kun.work?subject=問い合わせ" class="contact-mail">メールアプリを起動</a>
+        </div>
+      </div>
+
+    </main>
+
+    <div id="page_top"><a href="#"></a></div>
+
+  </div>
+
 </body>
 </html>
